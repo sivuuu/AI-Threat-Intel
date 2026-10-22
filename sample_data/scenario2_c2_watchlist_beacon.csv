@@ -1,0 +1,4 @@
+log_id,timestamp,source,event_type,severity,source_ip,destination_ip,username,hostname,command_line
+LOG-SCEN2-001,2026-10-22T09:00:15Z,perimeter_firewall,network_connection,CRITICAL,10.0.4.55,198.51.100.44,mrodriguez,FIN-SRV-04,OUTBOUND TCP connection to known C2 server 198.51.100.44:443 bytes=8192
+LOG-SCEN2-002,2026-10-22T09:05:30Z,perimeter_firewall,network_connection,CRITICAL,10.0.4.55,198.51.100.44,mrodriguez,FIN-SRV-04,OUTBOUND TCP connection to known C2 server 198.51.100.44:443 bytes=16384
+LOG-SCEN2-003,2026-10-22T09:10:00Z,dns_server,dns_query,HIGH,10.0.4.55,8.8.8.8,mrodriguez,FIN-SRV-04,Query A c2-shadowbear.threat-infra.com
